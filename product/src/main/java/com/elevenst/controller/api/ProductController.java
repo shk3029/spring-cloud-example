@@ -16,9 +16,9 @@ public class ProductController {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }*/
-        throw new RuntimeException("I/O Exception");
+//        throw new RuntimeException("I/O Exception");
 //        System.out.println("ProductId" + productId);
-//        return "[product id = " + productId + " at "  + System.currentTimeMillis() + "]";
+        return "[product id = " + productId + " at "  + System.currentTimeMillis() + "]";
     }
 
 }
